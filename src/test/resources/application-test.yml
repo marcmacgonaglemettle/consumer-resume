@@ -1,0 +1,9 @@
+kafka:
+  schema:
+    registry:
+      url: ${confluent.schema.registry.url}
+
+confluent:
+  schema:
+    registry:
+      url: mock://mockschemaregistry
